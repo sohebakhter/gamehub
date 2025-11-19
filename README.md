@@ -6,6 +6,12 @@
 
 ---
 
+## Screen Shot
+
+![Image](https://github.com/user-attachments/assets/08d8c853-9c24-4ea3-bdce-34e2dee40556)
+
+----
+
 ## 🌐 Live URL
 
 🔗 **Live Site:** [https://gamehub-store.netlify.app/](https://gamehub-store.netlify.app/)
