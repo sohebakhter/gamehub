@@ -63,7 +63,7 @@ To run this project locally, follow these steps:
 
 ```bash
 # Clone this repository
-git clone https://github.com/your-username/gamehub.git
+git clone https://github.com/sohebakhter/gamehub.git
 
 # Navigate into the project folder
 cd gamehub
