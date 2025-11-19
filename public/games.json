@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "PlayerUnknown’s Battlegrounds (PUBG)",
+    "coverPhoto": "https://i.ibb.co.com/JFC7sp9j/image.png",
+    "category": "Battle Royale / FPS",
+    "downloadLink": "https://www.pubgmobile.com/en-US/home.shtml",
+    "description": "PUBG Mobile is a fast-paced battle royale game where players fight for survival, strategy, and victory on dynamic maps.",
+    "ratings": 4.5,
+    "developer": "Krafton"
+  },
+  {
+    "id": 2,
+    "title": "Fortnite",
+    "coverPhoto": "https://i.ibb.co.com/qYZfpvKV/image.png",
+    "category": "Battle Royale",
+    "downloadLink": "https://www.epicgames.com/fortnite/en-US/home",
+    "description": "Fortnite is a global phenomenon battle royale that combines shooting, building and live events in a stylised world.",
+    "ratings": 4.3,
+    "developer": "Epic Games"
+  },
+  {
+    "id": 3,
+    "title": "Minecraft",
+    "coverPhoto": "https://i.ibb.co.com/vvThQjFs/image.png",
+    "category": "Sandbox / Survival",
+    "downloadLink": "https://www.minecraft.net",
+    "description": "Minecraft is a sandbox game where players create, explore and survive in endless block-based worlds of their own making.",
+    "ratings": 4.7,
+    "developer": "Mojang Studios"
+  },
+  {
+    "id": 4,
+    "title": "League of Legends",
+    "coverPhoto": "https://i.ibb.co.com/XxHySx9H/image.png",
+    "category": "MOBA",
+    "downloadLink": "https://www.leagueoflegends.com",
+    "description": "League of Legends is a 5v5 multiplayer online battle arena game where teams strategise and fight to destroy the enemy Nexus.",
+    "ratings": 4.2,
+    "developer": "Riot Games"
+  },
+  {
+    "id": 5,
+    "title": "Grand Theft Auto V",
+    "coverPhoto": "https://i.ibb.co.com/JjHNFZJW/image.png",
+    "category": "Action-Adventure / Open World",
+    "downloadLink": "https://www.rockstargames.com/V",
+    "description": "GTA V is an open world game where players switch between three characters in a sprawling city, engaging in missions, heists, and exploration.",
+    "ratings": 4.8,
+    "developer": "Rockstar Games"
+  },
+  {
+    "id": 6,
+    "title": "Call of Duty: Modern Warfare II",
+    "coverPhoto": "https://i.ibb.co.com/JRpBXjbG/image.png",
+    "category": "FPS",
+    "downloadLink": "https://www.callofduty.com/modernwarfare2",
+    "description": "Call of Duty: Modern Warfare II is a fast-paced first-person shooter offering mission-based campaign, multiplayer and co-op modes.",
+    "ratings": 4.4,
+    "developer": "Infinity Ward / Activision"
+  },
+  {
+    "id": 7,
+    "title": "Apex Legends",
+    "coverPhoto": "https://i.ibb.co.com/d0SyTLkS/image.png",
+    "category": "Battle Royale / Hero Shooter",
+    "downloadLink": "https://www.ea.com/games/apex-legends",
+    "description": "Apex Legends is a hero-based battle royale where squads of three choose unique characters and battle across evolving maps.",
+    "ratings": 4.6,
+    "developer": "Respawn Entertainment / EA"
+  },
+  {
+    "id": 8,
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "coverPhoto": "https://i.ibb.co.com/ynj31m79/image.png",
+    "category": "Action-Adventure",
+    "downloadLink": "https://www.nintendo.com/games/detail/the-legend-of-zelda-breath-of-the-wild-switch/",
+    "description": "Breath of the Wild is an open world adventure game where Link explores a huge landscape to free Hyrule from evil forces.",
+    "ratings": 4.9,
+    "developer": "Nintendo"
+  },
+  {
+    "id": 9,
+    "title": "Pokémon Scarlet and Violet",
+    "coverPhoto": "https://i.ibb.co.com/PGrXQ3sp/image.png",
+    "category": "JRPG / Open World",
+    "downloadLink": "https://www.pokemon.com/us/pokemon-scarlet-violet/",
+    "description": "Pokémon Scarlet & Violet are open-world Pokémon RPGs where trainers explore new regions, catch Pokémon and battle in multiplayer.",
+    "ratings": 4.3,
+    "developer": "Game Freak / The Pokémon Company"
+  },
+  {
+    "id": 10,
+    "title": "Animal Crossing: New Horizons",
+    "coverPhoto": "https://i.ibb.co.com/vxMhzGLd/image.png",
+    "category": "Social Simulation",
+    "downloadLink": "https://www.nintendo.com/games/detail/animal-crossing-new-horizons-switch/",
+    "description": "Animal Crossing: New Horizons is a life-sim where you build and decorate your island, interact with villagers and enjoy a relaxing multiplayer experience.",
+    "ratings": 4.5,
+    "developer": "Nintendo"
+  }
+]
