@@ -8,7 +8,7 @@
 
 ## 🌐 Live URL
 
-🔗 **Live Site:** [https://gamehub-assignment-9.netlify.app](https://gamehub-assignment-9.netlify.app)
+🔗 **Live Site:** [https://gamehub-store.netlify.app/](https://gamehub-store.netlify.app/)
 
 ---
 
@@ -74,7 +74,7 @@ npm run dev
 
 ## 👨‍💻 Developer
 
-Developed with ❤️ by Soheb Akhter
+Developed by ❤️ by Soheb Akhter
 
 ---
 
