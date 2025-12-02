@@ -25,11 +25,10 @@ const GamesDetails = () => {
       style={{ backgroundImage: `url("${img}")` }}
     >
       <title>{title}</title>
-      <h1>Games Details</h1>
-      <div className="flex flex-col justify-center items-center ">
+      <div className="w-11/12 mx-auto flex flex-col justify-center items-center">
         <div className="space-y-3">
           <img
-            className="md:w-90 h-70 md:h-full rounded-lg"
+            className="md:w-90 h-70 md:h-full rounded-lg mt-5"
             src={coverPhoto}
             alt=""
           />

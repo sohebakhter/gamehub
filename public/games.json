@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "PlayerUnknown’s Battlegrounds (PUBG)",
+    "title": "PUBG",
     "coverPhoto": "https://i.ibb.co.com/JFC7sp9j/image.png",
     "category": "Battle Royale / FPS",
     "downloadLink": "https://www.pubgmobile.com/en-US/home.shtml",
@@ -43,7 +43,7 @@
     "id": 5,
     "title": "Grand Theft Auto V",
     "coverPhoto": "https://i.ibb.co.com/JjHNFZJW/image.png",
-    "category": "Action-Adventure / Open World",
+    "category": " Open World",
     "downloadLink": "https://www.rockstargames.com/V",
     "description": "GTA V is an open world game where players switch between three characters in a sprawling city, engaging in missions, heists, and exploration.",
     "ratings": 4.8,
@@ -51,7 +51,7 @@
   },
   {
     "id": 6,
-    "title": "Call of Duty: Modern Warfare II",
+    "title": "Call of Duty",
     "coverPhoto": "https://i.ibb.co.com/JRpBXjbG/image.png",
     "category": "FPS",
     "downloadLink": "https://www.callofduty.com/modernwarfare2",
@@ -63,7 +63,7 @@
     "id": 7,
     "title": "Apex Legends",
     "coverPhoto": "https://i.ibb.co.com/d0SyTLkS/image.png",
-    "category": "Battle Royale / Hero Shooter",
+    "category": "Battle Royale",
     "downloadLink": "https://www.ea.com/games/apex-legends",
     "description": "Apex Legends is a hero-based battle royale where squads of three choose unique characters and battle across evolving maps.",
     "ratings": 4.6,
@@ -71,7 +71,7 @@
   },
   {
     "id": 8,
-    "title": "The Legend of Zelda: Breath of the Wild",
+    "title": "The Legend of Zelda",
     "coverPhoto": "https://i.ibb.co.com/ynj31m79/image.png",
     "category": "Action-Adventure",
     "downloadLink": "https://www.nintendo.com/games/detail/the-legend-of-zelda-breath-of-the-wild-switch/",
@@ -81,9 +81,9 @@
   },
   {
     "id": 9,
-    "title": "Pokémon Scarlet and Violet",
+    "title": "Pokémon ",
     "coverPhoto": "https://i.ibb.co.com/PGrXQ3sp/image.png",
-    "category": "JRPG / Open World",
+    "category": " Open World",
     "downloadLink": "https://www.pokemon.com/us/pokemon-scarlet-violet/",
     "description": "Pokémon Scarlet & Violet are open-world Pokémon RPGs where trainers explore new regions, catch Pokémon and battle in multiplayer.",
     "ratings": 4.3,
@@ -91,7 +91,7 @@
   },
   {
     "id": 10,
-    "title": "Animal Crossing: New Horizons",
+    "title": "Animal Crossing",
     "coverPhoto": "https://i.ibb.co.com/vxMhzGLd/image.png",
     "category": "Social Simulation",
     "downloadLink": "https://www.nintendo.com/games/detail/animal-crossing-new-horizons-switch/",

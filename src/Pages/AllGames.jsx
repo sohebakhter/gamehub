@@ -6,7 +6,7 @@ const AllGames = () => {
   const data = useLoaderData();
 
   return (
-    <div>
+    <div className="w-11/12 mx-auto">
       <title>GameHub | All-Games</title>
 
       <h1 className="text-2xl mt-4 md:mt-8 mb-5">All Games</h1>
