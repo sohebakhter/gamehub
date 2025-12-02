@@ -68,8 +68,9 @@ const Banner = () => {
             <div className=" flex justify-center lg:justify-start  gap-2 md:gap-5 ">
               {/* Google play */}
               <Link
-                to="https://play.google.com/"
+                to="https://play.google.com/store/apps"
                 className="btn bg-black text-white border-black w-40 md:w-60"
+                target="_blank"
               >
                 <FaGooglePlay />
                 Google Play
@@ -79,6 +80,7 @@ const Banner = () => {
               <Link
                 to="https://www.apple.com/app-store"
                 className="btn bg-white text-black border-[#e5e5e5] w-40 md:w-60"
+                target="_blank"
               >
                 <FaAppStore />
                 App Store

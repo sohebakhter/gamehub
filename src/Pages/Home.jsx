@@ -5,6 +5,8 @@ import SingleGame from "../Components/SingleGame";
 import NewsLetter from "../Components/NewsLetter";
 import { motion } from "motion/react";
 import Banner from "../Components/Banner";
+import BlogSection from "../Components/BlogSection";
+import Promotional from "../Components/Promotional";
 
 const Home = () => {
   const data = useLoaderData();
@@ -35,7 +37,9 @@ const Home = () => {
             value={sortOrder}
             onChange={(e) => setSortOrder(e.target.value)}
           >
-            <option value="ratings-desc">Sort By Rating--</option>
+            <option disabled value="">
+              Sort By Rating--
+            </option>
             <option value="ratings-asc">Low - High</option>
             <option value="ratings-desc">High - Low</option>
           </select>
@@ -74,6 +78,8 @@ const Home = () => {
         </Link>
         <p className="border-b-5 border-red-500 w-full"></p>
       </div>
+      <BlogSection></BlogSection>
+      <Promotional></Promotional>
       <NewsLetter></NewsLetter>
     </div>
   );

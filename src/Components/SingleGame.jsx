@@ -5,21 +5,22 @@ import { Link } from "react-router";
 const SingleGame = ({ game }) => {
   const { id, title, coverPhoto, category, ratings } = game;
   return (
-    <div className="bg-base-100 shadow-sm hover:scale-105 transition-transform duration-300">
+    <div className="bg-base-100 shadow-sm hover:scale-105 transition-transform duration-300 flex flex-col">
       <img
         className="h-[450px] rounded-xl mx-auto"
         src={coverPhoto}
         alt="Games"
       />
 
-      <div className="border-t mt-1 p-2">
+      <div className="border-t mt-1 p-2 flex-1">
         <h2 className="">{title}</h2>
         <div className="flex justify-between items-center">
           <p>{category}</p>
           <p>{ratings}</p>
         </div>
       </div>
-      <Link to={`/game/${id}`}>
+
+      <Link to={`/game/${id}`} className="mt-auto">
         <button className="btn w-full hover:text-red-500">See More</button>
       </Link>
     </div>
