@@ -5,7 +5,7 @@ const Error404 = () => {
       <h1 className="font-semibold text-3xl mt-10 text-center">OPPS!! PAGE NOT FOUND</h1>
 
       <a href="/">
-        <button className="btn btn-ghost block mx-auto mt-5 bg-red-600 text-white">
+        <button className="btn btn-ghost block mx-auto mt-5 bg-red-700 text-white">
           Go Back
         </button>
       </a>

@@ -9,7 +9,7 @@ const MainLayout = () => {
       <Header></Header>
       <div className="flex-1">
         <Outlet></Outlet>
-      </div>
+      </div >
       <Footer></Footer>
     </div>
   );
