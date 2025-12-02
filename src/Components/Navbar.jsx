@@ -1,6 +1,6 @@
 import React, { use } from "react";
 import logo from "../assets/logo.png";
-import { Link, useNavigate } from "react-router";
+import { Link, NavLink, useNavigate } from "react-router";
 import { AuthContext } from "../Context/AuthContext";
 import { toast } from "react-toastify";
 
@@ -31,9 +31,10 @@ const Navbar = () => {
         </div>
         <div className="lg:flex justify-center md:gap-5">
           <div className="flex flex-col md:flex-row justify-center items-center gap-1 md:gap-5">
-            <Link to="/">GAME</Link>
-            <Link to="/game/allgame">STORE</Link>
-            <Link to="/community">COMMUNITY</Link>
+            <NavLink to="/">HOME</NavLink>
+            <NavLink to="/game/allgame">GAMES</NavLink>
+            <NavLink to="/community">COMMUNITY</NavLink>
+            <NavLink to="/about-us">ABOUT'US</NavLink>
           </div>
           <div>
             {user ? (
@@ -51,12 +52,12 @@ const Navbar = () => {
               </div>
             ) : (
               <div className="space-x-2 flex justify-center lg:justify-end ">
-                <Link to="/auth/login" className="btn">
+                <NavLink to="/auth/login" className="btn">
                   Login
-                </Link>
-                <Link to="/auth/register" className="btn">
+                </NavLink>
+                <NavLink to="/auth/register" className="btn">
                   Registration
-                </Link>
+                </NavLink>
               </div>
             )}
           </div>

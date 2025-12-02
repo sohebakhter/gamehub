@@ -11,7 +11,7 @@ const Banner = () => {
   return (
     <div>
       <div
-        className=" lg:h-screen bg-cover bg-center flex flex-col lg:flex-row justify-between items-center"
+        className=" h-80% bg-cover bg-center flex flex-col lg:flex-row justify-between items-center"
         style={{ backgroundImage: `url("${banner}")` }}
       >
         <div className="w-11/12 mx-auto flex flex-col lg:flex-row justify-between items-center">

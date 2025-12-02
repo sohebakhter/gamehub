@@ -3,6 +3,15 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+.active {
+  color: red;
+  transition: 0.2s ease-in-out;
+}
+
+.active:hover {
+  color: lightcoral;
+}
+
 body {
   font-family: "Press Start 2P", system-ui;
 }

@@ -33,7 +33,7 @@ const GamesDetails = () => {
             alt=""
           />
           <Link to={`${downloadLink}`}>
-            <button className="btn">
+            <button className="btn md:ml-6">
               <FaAngleDoubleDown /> Download From Here
             </button>
           </Link>

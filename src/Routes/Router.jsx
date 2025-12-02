@@ -13,6 +13,7 @@ import MyProfile from "../Pages/MyProfile";
 import ForgetPassword from "../Components/ForgetPassword";
 import PrivateRoute from "../Context/PrivateRoute";
 import UpdateProfile from "../Pages/UpdateProfile";
+import AboutUs from "../Components/AboutUs";
 
 export const router = createBrowserRouter([
   {
@@ -25,6 +26,14 @@ export const router = createBrowserRouter([
         element: <Home></Home>,
         hydrateFallbackElement: <p>loading..</p>,
         loader: () => fetch("/games.json"),
+      },
+      {
+        path: "/about-us",
+        element: <AboutUs></AboutUs>,
+      },
+      {
+        path: "/forget-password",
+        element: <ForgetPassword></ForgetPassword>,
       },
     ],
   },
@@ -52,11 +61,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/game/:id",
-        element: (
-          <PrivateRoute>
-            <GamesDetails></GamesDetails>
-          </PrivateRoute>
-        ),
+        element: <GamesDetails></GamesDetails>,
         hydrateFallbackElement: <p>loading..</p>,
         loader: () => fetch("/games.json"),
       },
@@ -75,9 +80,5 @@ export const router = createBrowserRouter([
         element: <Register></Register>,
       },
     ],
-  },
-  {
-    path: "/forget-password",
-    element: <ForgetPassword></ForgetPassword>,
   },
 ]);

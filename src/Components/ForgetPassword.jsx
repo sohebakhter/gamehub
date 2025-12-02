@@ -44,7 +44,6 @@ const ForgetPassword = () => {
 
   return (
     <div className="w-11/12 mx-auto flex flex-col min-h-screen">
-      <Navbar></Navbar>
       <title>Forget Password</title>
       <h1>ForgetPassword</h1>
 
@@ -52,28 +51,29 @@ const ForgetPassword = () => {
 
       <div className="flex-1">
         <div className="mx-auto card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl ">
-        <div className="card-body">
-          <form onSubmit={handleResetPassword}>
-            <fieldset className="fieldset space-y-3">
-              <label className="label">Email</label>
-              <input
-                type="email"
-                ref={emailRef}
-                className="input"
-                placeholder="Email"
-              />
+          <div className="card-body">
+            <form onSubmit={handleResetPassword}>
+              <fieldset className="fieldset space-y-3">
+                <label className="label">Email</label>
+                <input
+                  type="email"
+                  ref={emailRef}
+                  className="input"
+                  placeholder="Email"
+                />
 
-              <button type="submit" className="btn  mt-4 bg-red-500 text-white">
-                Reset Password
-              </button>
-            </fieldset>
-          </form>
+                <button
+                  type="submit"
+                  className="btn  mt-4 bg-red-500 text-white"
+                >
+                  Reset Password
+                </button>
+              </fieldset>
+            </form>
+          </div>
         </div>
       </div>
-
-      </div>
       {/* ------------ */}
-      <Footer></Footer>
     </div>
   );
 };
